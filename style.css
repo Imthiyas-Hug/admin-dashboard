@@ -1,0 +1,122 @@
+:root{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.header{
+    border: 1px black solid;
+    box-shadow: 0px 0px 3px rgb(66, 64, 64);
+}
+.sidebar{
+    border: 1px black solid;
+}
+.header_row1{
+    display: flex;
+    justify-content: space-around;
+}
+.header_row2{
+    display: flex;
+    justify-content: space-between;
+}
+.header_ul1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header_ul2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 42px;
+}
+.search_box{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.search_box  > img{
+    height: 25px;
+}
+
+.search_box input{
+    width: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(0, 0%, 93%);
+}
+.profile{
+    display: flex;
+    gap: 15px;
+    margin-left: 42px;
+}
+
+button{
+    padding: 8px 20px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(76, 156, 148);
+}
+.sidebar_heading1{
+    display: flex;
+    gap: 5px;
+}
+.sidebar_heading2{
+    display: flex;
+    gap: 15px;
+}
+.projects{
+    border: 1px solid black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.projects > *{
+    border: 1px solid black;
+}
+.project_card_ul{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.project_card{
+    padding: 30px 20px 0px 20px;
+    border-left: 10px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card > h4,p{
+    display: inline;
+}
+
+.announcement > h4,p{
+    display: inline;
+}
+
+.announcement_card{
+    border: 1px solid black;
+    padding: 20px;
+}
+.announcement{
+    padding: 20px;
+}
+.first , .second{
+    border-bottom: 1px solid black;
+}
+.trending_card{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
