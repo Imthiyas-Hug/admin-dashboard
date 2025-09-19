@@ -10,7 +10,7 @@ ul {
 }
 
 .header {
-    box-shadow: 3px 3px 5px hsl(0, 0%, 74%);
+    box-shadow: 3px 3px 3px hsl(0, 0%, 74%);
     background-color: hsl(0, 0%, 100%);
 }
 
@@ -22,7 +22,9 @@ ul {
     background-color: hsl(138, 50%, 30%);
     color: white;
 }
-
+.sidebar_heading2 > h4{
+    margin-top: 0px;
+}
 .header_row1 {
     display: flex;
     justify-content: space-between;
@@ -177,7 +179,7 @@ p {
     background-color: hsl(138, 50%, 95%);
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr;
+
     gap: 20px;
 }
 
